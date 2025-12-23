@@ -8,6 +8,7 @@
     text-align: Left;
 }
 
+
 table{
     /* 실제로 box 내부에서 사용하므로 box 크기 만큼 */
     width: 100%;
