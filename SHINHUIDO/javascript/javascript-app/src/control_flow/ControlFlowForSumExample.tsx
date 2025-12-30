@@ -4,7 +4,7 @@ export const ControlFlowForSumExample = () => {
 
     for (let i = 1, j = 1; i <= 5; i+=2, j++) {
         loopResultArray.push(i)
-        summation += loopResultArray[i - 1]
+        summation += i
     }
 
   return (
