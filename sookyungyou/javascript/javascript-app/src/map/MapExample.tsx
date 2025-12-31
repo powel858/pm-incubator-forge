@@ -6,7 +6,8 @@ export const MapExample = () => {
     // typscript: type을 명시하는 작업
     // 따라서 ':number []'은 숫자 배열임을 명시하는 행위 
 
-    let square_result_array: number[] = number_array.map(element => element * element)
+    let square_result_array: number[] = 
+        number_array.map(element => element * element)
     // squre(제곱) 결과 배열
     // number_array.map()을 사용하면 아래와 같이 동작
 
